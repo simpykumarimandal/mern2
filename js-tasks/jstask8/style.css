@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to bottom right, #fff3d1, #d87ebf);
+  font-family: serif;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  width: 7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  border: 1px solid #ccc;
+  font-size: 0.75rem;
+  padding: 0.125rem 0.25rem;
+  flex: 1;
+}
+.form-group.items-start label {
+  padding-top: 0.25rem;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.submit-button {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  background-color: #dc2626;
+  border: 1px solid black;
+  border-radius: 9999px;
+  padding: 0.25rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #b91c1c;
+}
